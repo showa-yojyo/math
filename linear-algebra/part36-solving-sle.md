@@ -15,18 +15,25 @@ $$
 
 短い記法： ${Ax = b}$
 
-拡張行列 (augmented matrix)
+拡張行列 (augmented matrix):
+$
+\left(\hspace{-4pt}
+\begin{array}{c|c}
+A & b
+\end{array}
+\hspace{-4pt}\right)
+$
+
+先ほどの方程式は：
 
 $$
-(A | b)
-$$
-
-$$
-\begin{matrix}
-2 & 3 & 4 & | 1\\
-4 & 6 & 9 & | 1\\
-2 & 4 & 6 & | 1\\
-\end{matrix}
+\left(\hspace{-4pt}
+\begin{array}{ccc|c}
+2 & 3 & 4 & 1\\
+4 & 6 & 9 & 1\\
+2 & 4 & 6 & 1\\
+\end{array}
+\hspace{-4pt}\right)
 $$
 
 例：
